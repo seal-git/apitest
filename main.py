@@ -81,7 +81,8 @@ def get_place_photo(key, photo_references):
 
 def main():
     """
-    試しに使う場合は.envファイルを追加してAPIkey=***と書く．
+    Google maps APIでお店を検索して写真をとってくるサンプルコード
+    試しに使う場合は.envファイルを追加してAPIkey=***と書く
     """
     # .envファイルからAPIkeyを読み込む
     load_dotenv()
