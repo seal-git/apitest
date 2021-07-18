@@ -80,6 +80,9 @@ def get_place_photo(key, photo_references):
 
 
 def main():
+    """
+    試しに使う場合は.envファイルを追加してAPIkey=***と書く．
+    """
     # .envファイルからAPIkeyを読み込む
     load_dotenv()
     # API keyの値を取得
